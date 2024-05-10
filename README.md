@@ -1,23 +1,35 @@
-Step 1:- copy the github repo url
 
-Step 2:- open cmd terminal 
+# Chat Application
 
-Step3:- Git clone repo_url
+Clone This Project Or Download Using 
+[https://github.com/vishalpote/Chat-Application]
 
-Step 5:- open the folder
-                frontend 
-                backend
 
-Step6:- Go back to main folder. 
+## FRONTEND :-
+##### Run This Command On Terminal
+### cd frontend
+### npm install
+### npm run dev
+## BACKEND :-
+##### Run This Command On Terminal
+### cd backend
+### npm install
+### npm start or nodemon src/server.js
 
-Step7:- right click open in terminal 
 
-Step 8:- code .
 
-Step9:- move to frontend
-            npm install 
-            npm run dev
+## API Reference
 
-Step10:- move backend
-          npm install 
-          npm start
+#### Get all items
+```
+
+| Parameter | Type     | Description                     |
+| :-------- | :------- | :------------------------------ |
+| `Port`    | `string` |8080                             | 
+|MONGO_URI  |  string  |mongodb://localhost/your-app-name|
+
+
+
+
+
+
